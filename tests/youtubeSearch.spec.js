@@ -2,7 +2,7 @@ const { test, expect } = require("@playwright/test");
 
 test("validate youtube search", async ({ page }) => {
  // go to url
- await page.goto("https://www.youtube.com/")
+ await page.goto(process.env.url);
 
  // type search with keywords
  await page.getByPlaceholder('Search').click();

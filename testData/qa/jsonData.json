@@ -1,0 +1,12 @@
+{
+ "qaTestData":{
+  "Key1": "playwright tutorial",
+  "Key2": "selenium tutorial",
+  "key3": "postman tutorial"
+ },
+ "searchKeywords":{
+  "Key1": "playwright tutorial",
+  "Key2": "selenium tutorial",
+  "key3": "postman tutorial"
+ }
+}
