@@ -16,6 +16,7 @@ exports.HomePage = class HomePage{
  
   async invokeBrowser(url) {
    await this.page.goto(url);
+    await this.page.setViewportSize({width:1536, height:816});
    }
 
  async searchYoutube(keyword) {

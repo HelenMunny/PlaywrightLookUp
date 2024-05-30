@@ -1,5 +1,6 @@
 const { test, expect } = require("@playwright/test");
-import { searchKeywords } from '../testData/qa/jsonData.json';
+// import { searchKeywords } from '../testData/qa/jsonData.json';
+const {searchKeywords} = require('../testData/qa/jsonData.json')
 
 for (const [key,value] of Object.entries(searchKeywords)) {
  test(`read json file, data driven testing ${value}`, async ({ page }) => {
